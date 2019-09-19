@@ -3,7 +3,8 @@
 
 
 - Project title: TicTacToe Game ("TicTacStar")
-- Link to the game: https://deniseddi.github.io/TicTacStar/
+- Link to the game: https://deniseddi.github.io/TicTacStar/  
+<img width="528" alt="Screen Shot 2019-09-19 at 11 05 13 am" src="https://user-images.githubusercontent.com/45111486/65211508-50870200-dae2-11e9-906e-400a538931a8.png">
 
 	
 - Description:  
