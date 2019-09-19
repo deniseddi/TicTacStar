@@ -1,0 +1,112 @@
+* {
+    box-sizing : border-box;
+}
+
+h1{   
+    font-family: 'Bungee Shade', cursive;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fbff00, 0 0 30px #fffb00, 0 0 40px #fffb00,0 0 55px #ffe600;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fbff00, 0 0 30px #fffb00, 0 0 40px #fffb00,0 0 55px #ffe600;
+}
+
+.ticTacToe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+
+.x{
+    font-size: 2em;
+    font-family: 'Bungee Inline', cursive;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    transition: text-shadow 2s;
+}
+
+.o{
+    font-size: 2em;
+    font-family: 'Bungee Inline', cursive;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    transition: text-shadow 2s;
+
+}
+
+.box {
+    color: white;
+    text-align:center;
+    font-size: 4em;
+    width: 33%;
+    height: 33%;
+    border: 1px solid white;
+}
+    
+img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.players{
+    font-size: 1.5em;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.player-one {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+
+}
+
+.player-two {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #48ff00, 0 0 30px #51ff00, 0 0 40px #51ff00, 0 0 55px #48ff00, 0 0 75px #48ff00;
+
+}
+
+body { 
+    display:inline block;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.transition-glow-x {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+}
+
+.transition-glow-o {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #48ff00, 0 0 30px #51ff00, 0 0 40px #51ff00, 0 0 55px #48ff00, 0 0 75px #48ff00;
+}
